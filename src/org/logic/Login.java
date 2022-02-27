@@ -2,11 +2,19 @@ package org.logic;
 
 public class Login {
 
-public static void passWord() {
-	System.out.println("password");
-}
+	public static void userName() {
+		System.out.println("userName");
+	}
 
-public static void main(String[] args) {
-	passWord();
+	public static void passWord() {
+		System.out.println("password");
+	}
+
+	public static void main(String[] args) {
+		userName();
+		passWord();
+	}
+
 }
-}
+//Head  ==> branch code
+//Tail  ==> master code
